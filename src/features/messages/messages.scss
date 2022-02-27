@@ -1,0 +1,35 @@
+@import "../../styles/colors.scss";
+
+.messages {
+  margin-bottom: 50px;
+
+  &__header {
+    margin-bottom: 50px;
+  }
+
+  &__name-and-car {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 3px;
+  }
+
+  &__name {
+    font-weight: bold;
+    padding-right: 15px;
+  }
+
+  &__car {
+    color: $color-text-model-auto;
+  }
+
+  &__date {
+    color: $color-text-date;
+    display: flex;
+    margin: 0 10px 10px;
+  }
+
+  &__text {
+    display: flex;
+    margin: 0 10px 15px;
+  }
+}

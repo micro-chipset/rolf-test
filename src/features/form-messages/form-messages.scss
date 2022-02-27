@@ -1,0 +1,35 @@
+@import "../../styles/colors.scss";
+
+.form-messages {
+  &__header {
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+  }
+
+  &__sub-wrapper {
+    display: flex;
+  }
+
+  &__field {
+    margin: 5px 0;
+
+    &:first-child {
+      margin-right: 25px;
+    }
+  }
+
+  &__error-message {
+    color: $color-text-error;
+    padding: 10px;
+  }
+
+  &__button {
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+}
